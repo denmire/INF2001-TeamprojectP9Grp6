@@ -1,0 +1,29 @@
+Finalised questions for client on 7th September
+===Technical questions===
+What are the key functionalities/features of this web application should be prioritised?
+    - job allocation, availability indication, workload viewing (jobs assigned, num of hours worked for the week)
+Operations flow
+    pilots check in --> flight prep --> fly to dst --> rest? prep for immediate flight? --> repeat?
+Planning starts every thursday
+    - plan from when to when? (eg. next week monday to sunday or ?)
+Availabilities updated by wednesday
+    - for those who did not update on time, what is their default status? (eg. indicate as available or unavailable)
+    - lock updating of availability to prevent confusion when planning? (eg. lock from thurs - sunday or lock upcoming week's availability)
+Make their assignments such that staff should not need to travel between routes and planes do not stay on the ground for more than three hours
+    - clarify what does it mean that they should not need to travel between routes? (eg switch terminals? switch boarding gates? switch airports?)
+        - based on manpower constraints, there might be issues here tho
+    - less than 3 hours of waiting time (parking time? what is it doing? does it include right after landing/arriving?)
+Indication of being unable to fulfil assigned jobs
+    - requires popup warning of having discussed this w their manager?
+    - put in reasoning for rejecting?
+The manager should be able to view up to three staff availability and any relevant information
+to make the job assignment easier on the job allocation page
+    - up to 3 per week or per day? (clarify and confirm that it's the max)
+    - which staff to prioritise and in what order? (in order of location then workload then ... etc?)
+Is training considered a job assignment/slotted into job allocation? or will it be handled separately irrelevant from the web application
+    - working hours are clocked
+    - is training done as OJT on the plane?
+===Visual questions===
+Color themes?
+Design inspirations you'd like us to refer to?
+What style would you want the web application landing page to be in? (E.g dashboard, login page, etc)
