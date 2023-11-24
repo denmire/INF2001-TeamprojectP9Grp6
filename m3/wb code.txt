@@ -1,0 +1,28 @@
+public List<Pilot> RecommendPilot(Job){
+    String aircraft = Job.GetAirCraft();
+    List<Pilot> pilots = new List<Pilot>();
+    List<String> ranks = new list<String>();
+    Switch (aircraft){
+        case "boeing 737-8":
+            ranks.add("captain");
+            ranks.add("senior first officer");
+        case "boeing 787-10":
+            ranks.add("captain");
+            ranks.add("senior first officer");
+            ranks.add("first officer");
+        case "boeing A350-900":
+            ranks.add("captain");
+            ranks.add("senior first officer");
+            ranks.add("first officer");
+        default:
+            return pilots;
+    }
+    pilots.AddRange(GetPilos(ranks));
+    foreach(Pilot p in pilots){
+        if(p.CheckTraining(aircraft))
+            continue
+        else
+            pilots.remove(p);
+    }
+    return pilots;
+}
